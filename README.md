@@ -2,7 +2,7 @@
 
 Convert WildChat conversation records (HuggingFace
 [`allenai/WildChat-1M`](https://huggingface.co/datasets/allenai/WildChat-1M))
-into [`.curt`](https://github.com/JordanNewell/dot_curt) single-file
+into [`.curt`](https://github.com/dotcurt/dot_curt) single-file
 conversation format. Built on [`curt-format`](https://www.npmjs.com/package/curt-format)
 (reference implementation, v1 core). Sister to `curt-convert` (Claude Code
 transcripts → .curt).
@@ -110,10 +110,10 @@ npm run build  # tsc -> dist/
 
 ## Part of the .curt suite
 
-- [`curt-format`](https://github.com/JordanNewell/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
-- [`curt-convert`](https://github.com/JordanNewell/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
-- [`curt-vcon`](https://github.com/JordanNewell/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
-- [`curt-wildchat`](https://github.com/JordanNewell/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
-- [`curt-openwith`](https://github.com/JordanNewell/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
+- [`curt-format`](https://github.com/dotcurt/dot_curt) — the .curt format spec + reference implementation ([npm](https://www.npmjs.com/package/curt-format))
+- [`curt-convert`](https://github.com/dotcurt/curt-convert) — Claude Code transcripts → .curt ([npm](https://www.npmjs.com/package/curt-convert))
+- [`curt-vcon`](https://github.com/dotcurt/curt-vcon) — .curt ⇄ vCon (IETF) bridge ([npm](https://www.npmjs.com/package/curt-vcon))
+- [`curt-wildchat`](https://github.com/dotcurt/curt-wildchat) — WildChat-1M records → .curt ([npm](https://www.npmjs.com/package/curt-wildchat))
+- [`curt-openwith`](https://github.com/dotcurt/curt-openwith) — double-click any .curt file: offline viewer, Windows + macOS + Linux
 
 MIT — see [LICENSE](LICENSE).

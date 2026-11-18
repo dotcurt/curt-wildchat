@@ -10,7 +10,7 @@
 
 Open a private security advisory via GitHub
 (Security > Report a vulnerability) on
-[JordanNewell/curt-wildchat](https://github.com/JordanNewell/curt-wildchat/security/advisories/new),
+[dotcurt/curt-wildchat](https://github.com/dotcurt/curt-wildchat/security/advisories/new),
 or email the maintainer directly if you cannot use GitHub.
 
 Please include a description, reproduction steps, and affected versions.
